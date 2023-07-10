@@ -1,0 +1,118 @@
+body{
+    background-color: #e3e2e2;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav-background{
+    position: relative;
+    background-color: black;
+    width: 1536px;
+    height: 100px;
+}
+
+.nav-background ul{
+    float: right;
+    margin-left: 30px;
+}
+
+.nav-background ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 160px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-background ul li a:hover{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.nav-background ul li a{
+    text-decoration: none;
+    color: #fde1eb;
+    font-family: Consolas;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fde1eb;
+}
+
+.star{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.angela-photo{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+    height: 500px;
+}
+
+.square{
+    position: absolute;
+}
+
+.wave{
+    margin-top: -200px;
+    width: 1536px;
+}
+
+.title3{
+    margin-top: -260px;
+    margin-left: 1000px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
+    font-style: oblique;
+    font-family: "Century Schoolbook";
+}
+
+.title4{
+    margin-left: 650px;
+    margin-top: 200px;
+    width: 450px;
+    border-right: double 3px darkgreen;
+    font-size: 18px;
+}
+
+.title4 span, .title5 span{
+    font-weight: bold;
+    font-style: italic;
+    color: darkgreen;
+}
+
+.title5{
+    margin-top: -290px;
+    margin-left: 1150px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.insta, .gmail, .fb{
+    height: 50px;
+}
+
+.text{
+    border: none;
+    background-color: white;
+    width: 200px;
+    margin-left: 80px;
+    position: relative;
+    top: -40px;
+}
+
+.text a{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
+

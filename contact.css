@@ -1,0 +1,106 @@
+body{
+    background-color: #e3e2e2;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav-background{
+    position: relative;
+    background-color: black;
+    width: 1536px;
+    height: 100px;
+}
+
+.nav-background ul{
+    float: right;
+    margin-left: 30px;
+}
+
+.nav-background ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 160px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-background ul li a{
+    text-decoration: none;
+    color: #fde1eb;
+    font-family: Consolas;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-background ul li a:hover{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fde1eb;
+}
+
+.star{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.inputs{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.lines{
+    border-color: green;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 500px;
+    height: 35px;
+}
+
+.area{
+    border-color: green;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.information{
+    text-align: center;
+    width: 600px;
+    font-size: 23px;
+    color: darkgreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Lucida Calligraphy";
+}
+
+.button{
+    padding: 8px 10px 8px 10px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.9;
+    background-color: white;
+}
+
+.angelala{
+    height: 650px;
+    transform: scaleX(-1);
+    margin-top: -580px;
+    margin-left: 690px;
+}
+
+.black{
+    height: 900px;
+    margin-top: -685px;
+    margin-left: 700px;
+}

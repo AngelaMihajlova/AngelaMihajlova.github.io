@@ -1,0 +1,109 @@
+body{
+    background-color: #ffe2ec;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav-background{
+    position: relative;
+    background-color: black;
+    width: 1536px;
+    height: 100px;
+}
+
+.nav-background ul{
+    float: right;
+    margin-left: 30px;
+}
+
+.nav-background ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 160px;
+    text-decoration: none;
+    list-style-type: none;
+    /*font-weight: bold;*/
+}
+
+.nav-background ul li a{
+    text-decoration: none;
+    color: #fde1eb;
+    font-family: Consolas;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav-background ul li a:hover{
+    color: dimgray;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fde1eb;
+}
+
+.star{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title{
+    color: #f57da5;
+    margin-top: -230px;
+    margin-left: 530px;
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.title2{
+    color: black;
+    margin-top: -100px;
+    margin-left: 530px;
+    font-size: 40px;
+    font-family: "Lucida Handwriting", cursive;
+    font-weight: bold;
+}
+
+.wave{
+    margin-top: -500px;
+}
+
+.description{
+    margin-left: 400px;
+    width: 700px;
+    text-align: center;
+    font-family: "Century Schoolbook";
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.bars{
+    margin-top: 150px;
+}
+
+.bar1, .bar2, .bar3, .bar4{
+    margin-left: 65px;
+    width: 90%;
+    height: 20px;
+    background-color: #ddd;
+
+}
+
+.line1, .line2, .line3, .line4{
+    margin-top: 40px;
+    height: 100%;
+    background-color: darkseagreen;
+    border-radius: 8px;
+
+}
+.line1 p, .line2 p, .line3 p, .line4 p{
+    margin-left: 20px;
+    font-weight: bold;
+    color: darkgreen;
+    font-family: "Lucida Handwriting", cursive;
+}
